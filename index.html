@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home</title>
+
+    <!-- CSS Links -->
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/bs-brain@2.0.4/components/heroes/hero-1/assets/css/hero-1.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-black navbar-dark shadow">
+      <div class="container-fluid">
+        <img
+          src="https://acadpubassets.blob.core.windows.net/xpub/internship.sp.edu.sg/logo-white.png"
+          class="navbar-brand"
+          style="max-width: 10%; height: auto"
+          alt="SP's logo"
+        />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item mx-3">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="achievements.html">Milestones</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="wishes.html">Wishes</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--https://unpkg.com/bs-brain@2.0.4/components/heroes/hero-1/assets/css/hero-1.css -->
+    <!-- Hero Section -->
+    <section
+      class="bsb-hero-1 px-3 bsb-overlay bsb-hover-pull"
+      style="
+        background-image: url('https://hyperlocalnation.com/wp-content/uploads/2022/11/sp-students-2048x752.jpg');
+      "
+    >
+      <div class="container">
+        <div class="row justify-content-md-center">
+          <div
+            class="col-12 col-md-11 col-lg-9 col-xl-7 col-xxl-6 text-center text-white"
+          >
+            <h2 class="display-3 fw-bold mb-3">
+              Celebrating SP's 70th anniversary.
+            </h2>
+            <p class="lead mb-5">Submit your personal wishes and messages</p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+              <a href="wishes.html" class="btn bsb-btn-xl gap-3 btn-light"
+                >Wishes</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Header -->
+    <header class="custom-header">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <div class="header-content">
+              <h1>Celebrating 70 Years of Excellence: Singapore Polytechnic</h1>
+              <hr />
+              <p class="text-center fs-6 py-2">
+                Delve into the remarkable journey of Singapore Polytechnic
+                through its comprehensive timeline, spanning over 70 years of
+                educational excellence and innovation. From its inception to
+                becoming a cornerstone of technical and vocational education in
+                Singapore, explore the pivotal milestones and transformative
+                moments that have defined SP's legacy.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Carousel -->
+    <article>
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+          ></li>
+          <li
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+          ></li>
+          <li
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+          ></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="/graphics/oldsp.png"
+              alt="Old campus of Singapore Poly"
+              class="carousel-img"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>1954</h5>
+              <p class="text-light">
+                Singapore Polytechnic established as the first polytechnic in
+                Singapore.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="http://www.sp.edu.sg/images/default-source/og-defaults/singapore-polytechnic-default-og.png"
+              alt="Dover campus"
+              class="carousel-img"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>1979</h5>
+              <p>Campus in Dover is established</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/graphics/spbackground.jpg"
+              alt="..."
+              class="carousel-img"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>2024</h5>
+              <p>SP celebrates its 70th anniversary</p>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
+      </div>
+    </article>
+
+    <!-- Future Plans -->
+    <article class="container-fluid d-md-none d-lg-block mt-4 mb-4">
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-5">
+          <h2>Our Future Plans</h2>
+          <p class="fs-5">
+            Singapore Polytechnics have consistently proven themselves as
+            beacons of academic excellence and innovation. Their achievements
+            span diverse fields, embodying a commitment to shaping future
+            leaders and driving impactful change in society. Let's delve into
+            the remarkable achievements that have cemented Singapore
+            Polytechnics' reputation as leaders in education and innovation.<br /><br />
+            &#8680; Click <a href="achievements.html">here</a> for SP's
+            aspirations and successes.
+          </p>
+        </div>
+        <div class="col-md-5 d-flex justify-content-center align-items-center">
+          <img
+            src="https://scholarship-positions.com/wp-content/uploads/2018/09/Singapore-Polytechnic.png"
+            class="img-fluid rounded-circle border border-danger"
+            style="max-width: 100%; height: auto"
+            alt="Image of SP students"
+          />
+        </div>
+      </div>
+    </article>
+
+    <!-- SP Banner -->
+    <img
+      src="https://www.sp.edu.sg/images/default-source/default-album/sp70-banner-celebratesp-new.jpg"
+      class="img-fluid"
+      alt="SP70 banner"
+    />
+
+    <!-- Testimonials Section -->
+    <section>
+      <div class="row d-flex justify-content-center w-100">
+        <div class="col-md-10 col-xl-8 text-center">
+          <h3 class="mb-4">Testimonials</h3>
+          <p class="mb-4 pb-2 mb-md-5 pb-md-0 fs-3">
+            Here's what our students say about us
+          </p>
+        </div>
+      </div>
+      <div class="row text-center w-100">
+        <div class="col-md-4 mb-5 mb-md-0">
+          <div class="d-flex justify-content-center mb-4">
+            <img
+              src="https://editorialge.com/wp-content/uploads/2021/07/Career-Business-Administration-1024x556.jpg"
+              alt="Business Administration"
+              class="rounded-circle shadow-1-strong"
+              width="150"
+              height="150"
+            />
+          </div>
+          <h5 class="mb-3">Anonymous</h5>
+          <h6 class="text-primary mb-3">Business Administration</h6>
+          <p class="px-xl-3">
+            <i class="fas fa-quote-left pe-2"></i>I do enjoy my study
+            experience. The best thing are my classmates, they're a very lovely
+            bunch of nice people.
+          </p>
+        </div>
+        <div class="col-md-4 mb-5 mb-md-0">
+          <div class="d-flex justify-content-center mb-4">
+            <img
+              src="https://tse3.mm.bing.net/th?id=OIP.O2SpOiSk7bYMKxsmD2xnKQHaGv&pid=Api&P=0&h=180"
+              alt="Cartoon gears"
+              class="rounded-circle shadow-1-strong"
+              width="150"
+              height="150"
+            />
+          </div>
+          <h5 class="mb-3">"Khairul"</h5>
+          <h6 class="text-primary mb-3">Manufacturing Engineering</h6>
+          <p class="px-xl-3">
+            <i class="fas fa-quote-left pe-2"></i>I am having a lot of fun here
+            with my friends as it is a very big place and you can engage
+            yourself in a lot of activities and clubs.
+          </p>
+        </div>
+        <div class="col-md-4 mb-0">
+          <div class="d-flex justify-content-center mb-4">
+            <img
+              src="https://tse1.mm.bing.net/th?id=OIP.w1zGFn7Nfvl1i6H0sOOPDgHaIP&pid=Api&P=0&h=180"
+              alt="Cartoon wrench"
+              class="rounded-circle shadow-1-strong"
+              width="150"
+              height="150"
+            />
+          </div>
+          <h5 class="mb-3">Anonymous</h5>
+          <h6 class="text-primary mb-3">Aerospace Engineering</h6>
+          <p class="px-xl-3">
+            <i class="fas fa-quote-left pe-2"></i>Lecturers at SP are vastly
+            knowledgeable and approachable, often providing personal contact
+            information for further assistance.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Used ChatGPT to generate the questions -->
+    <section>
+      <h2 class="text-center mb-4 text-danger">
+        How much do you really know about Singapore Polytechnic?
+      </h2>
+      <h5 class="text-center mb-4 text-danger">
+        Come back here after you've explored the milestones page!
+      </h5>
+      <div class="container my-5">
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <!-- Form for submitting quiz answers -->
+            <form id="singaporepolyquiz" class="bg-light p-4 rounded shadow-sm">
+              <!-- Questions will be injected here -->
+              <div id="quizQuestions"></div>
+
+              <!-- Form action buttons -->
+              <button
+                type="button"
+                id="submitBtn"
+                class="btn btn-outline-danger"
+              >
+                Submit
+              </button>
+              <button type="reset" id="resetBtn" class="btn btn-outline-danger">
+                Reset
+              </button>
+            </form>
+
+            <!-- Feedback section -->
+            <div id="feedback" class="mt-3"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+   
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTopBtn" class="btn btn-danger rounded-circle">
+      <span class="text-white">&#x2191;</span>
+    </button>
+    <!-- Footer -->
+
+    <footer class="bg-dark text-white">
+      <div class="container text-center">
+        <img
+          src="https://www.sp.edu.sg/images/default-source/default-album/sp-footer-logo.png?sfvrsn=7ab511f1_0"
+          class="centered-image card-img-top"
+          style="max-width: 10%; height: auto"
+          alt="SP's logo"
+        />
+        <h5 class="card-title">Singapore Polytechnic</h5>
+        <p class="card-text">500 Dover Road Singapore 139651</p>
+        <p class="card-text">Made by Goh Ti Lim Lincoln DCDF/1A/04</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/javascript/index.js"></script>
+  </body>
+</html>

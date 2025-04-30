@@ -1,0 +1,21 @@
+.hero-image {
+  width: 100%;
+  height: 85vh; /* Full viewport height */
+  background-size: cover; /* Cover the entire section */
+  background-position: center; /* Center the image */
+  display: flex; /* Use flexbox for centering content */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  color: white; /* Change text color */
+  text-align: center; /* Center text */
+}
+
+.centered-image {
+  display: block; /* Make the image a block element */
+  margin: 0 auto; /* Center-align the image horizontally */
+}
+footer {
+  width: 100%;
+  padding: 20px 0; /* Add padding for spacing */
+  margin-top: 20px; /* Space above the footer */
+}
