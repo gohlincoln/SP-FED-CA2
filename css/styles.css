@@ -44,3 +44,8 @@ body {
   padding: 0;
   overflow-x: hidden; /* Prevent horizontal scroll */
 }
+footer {
+  width: 100%;
+  padding: 20px 0; /* Add padding for spacing */
+  margin-top: 20px; /* Space above the footer */
+}

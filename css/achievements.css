@@ -1,6 +1,6 @@
 .hero-image {
   width: 100%;
-  height: 85vh; /* Full viewport height */
+  height:  65; /*ull viewport height */
   background-size: cover; /* Cover the entire section */
   background-position: center; /* Center the image */
   display: flex; /* Use flexbox for centering content */
@@ -34,4 +34,24 @@ html, body {
   margin: 0;
   padding: 0;
   overflow-x: hidden; /* Prevent horizontal scroll */
+}
+.hero-banner {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.hero-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+
+
+footer {
+  width: 100%;
+  padding: 20px 0; /* Add padding for spacing */
+  margin-top: 20px; /* Space above the footer */
 }
